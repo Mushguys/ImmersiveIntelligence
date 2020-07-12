@@ -1074,9 +1074,9 @@ ie.manual.entry.bullet_component.white_phosphorus=White Phosphorus
 ie.manual.entry.bullet_component.white_phosphorus.lore=Storm clouds, fire and steel.
 ie.manual.entry.bullet_component.white_phosphorus.desc=White phosphorus is the main ingredient of most incendiary shells. Its high heat makes surrounding enemies more flammable, while the burning hot fragments ignite everything around.
 
-ie.manual.entry.bullet_component.shrapnel_aluminum=Aluminum Shrapnel
+ie.manual.entry.bullet_component.shrapnel_aluminum=Aluminium Shrapnel
 ie.manual.entry.bullet_component.shrapnel_aluminum.lore=Amelinium, one does not simply paint it
-ie.manual.entry.bullet_component.shrapnel_aluminum.desc=Aluminum is not the best material for shrapnel, but it's cheap enough to be mass used in combat.
+ie.manual.entry.bullet_component.shrapnel_aluminum.desc=Aluminium is not the best material for shrapnel, but it's cheap enough to be mass used in combat.
 
 ie.manual.entry.bullet_component.shrapnel_zinc=Zinc Shrapnel
 ie.manual.entry.bullet_component.shrapnel_zinc.lore=
