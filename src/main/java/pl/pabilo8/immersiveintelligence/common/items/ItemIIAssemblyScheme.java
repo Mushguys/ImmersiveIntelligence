@@ -37,8 +37,8 @@ public class ItemIIAssemblyScheme extends ItemIIBase
 	public void addInformation(ItemStack stack, @Nullable World world, List<String> list, ITooltipFlag flag)
 	{
 		ItemStack s = ItemNBTHelper.getItemStack(stack, "recipeItem");
-		list.add(I18n.format(CommonProxy.description_key+"assembly_scheme.used_to_create", s.getDisplayName()));
-		list.add(I18n.format(CommonProxy.description_key+"assembly_scheme.items_created", s.getCount()));
+		list.add(I18n.format(CommonProxy.description_key+"assembly_scheme.used_to_create", s.getDisplayName()+(s.getCount() > 1?" x"+s.getCount(): "")));
+		list.add(I18n.format(CommonProxy.description_key+"assembly_scheme.items_created", ItemNBTHelper.getInt(stack, "createdItems")));
 
 		if(Keyboard.isKeyDown(Keyboard.KEY_LSHIFT)||Keyboard.isKeyDown(Keyboard.KEY_RSHIFT))
 		{
